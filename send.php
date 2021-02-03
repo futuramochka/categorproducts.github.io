@@ -18,5 +18,6 @@
         $errorMessage = error_get_last()['message'];
     }else {
         echo 'Спасибо за заявку';
+        echo '<b> Вы можете вернуться на сайт  <a href="http://dubasss.ho.ua/" >по этой ссылке.</a></b>';
     }
 ?>
