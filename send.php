@@ -5,10 +5,10 @@
     $phone = $_POST['userPhone'];
     $email = $_POST['userEmail'];
     $product = $_POST['productName'];
-    $message =  'Заказ получен от клиента: '.$name."<br>".
-                'Его номер телефона: ' .$phone."<br>".
-                'Его email: ' .$email."<br>".
-                'Продукт который он заказал: ' .$product;
+    $message =  'Заказ получен от клиента: '.$name.
+                ' Его номер телефона: ' .$phone.
+                ' Его email: ' .$email.
+                ' Продукт который он заказал: ' .$product;
     $headers = 'From: dubenco@protonmail.com' . "\r\n" .
         'Reply-To: dubenco@protonmail.com' . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
